@@ -1,0 +1,91 @@
+.main_box{
+  padding: 30px;    
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(1, 66, 24);
+  border-radius: 30px;
+  color: white;
+}
+
+.App{
+  background-image: url('./02.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  width: 100%;
+  min-height: 100vh;
+}
+p{
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  background-color: white;
+  padding: 10px;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+h1{
+  background-color: rgb(222, 210, 186);
+  padding: 10px;
+  font-size: 50px;
+  border-radius: 10px;
+  color: rgb(4, 38, 4);
+}
+.input{
+  width: 550px;
+  height: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  outline-style: none;
+}
+button{
+  padding: 10px;
+  margin: 20px 0px;
+  width: 120px;
+  background-color: rgb(69, 112, 69);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow: 3px 3px 3px rgb(74, 72, 72);
+}
+.users_text{
+  background-color: rgb(192, 159, 133);
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  width: 550px;
+  margin-bottom: 20px;
+}
+.button_edit{
+  cursor: pointer;
+  font-size: 25px;
+  color: rgb(5, 74, 5);
+  margin: 0 auto;
+}
+
+@media all and (max-width:550px){
+  .input{
+    width: 350px;
+  }
+  .users_text{
+    width: 340px;
+    font-size: 16px;
+  }
+  h1{
+    font-size: 30px;
+  }
+}
